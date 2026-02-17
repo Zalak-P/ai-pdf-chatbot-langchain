@@ -14,5 +14,5 @@ export const retrievalAssistantStreamConfig: StreamConfigurables = {
  */
 export const indexConfig: IndexConfigurables = {
   useSampleDocs: false,
-  retrieverProvider: 'supabase',
+  retrieverProvider: 'memory',
 };
